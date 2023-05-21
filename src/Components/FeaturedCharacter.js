@@ -30,8 +30,8 @@ const FeaturedCharacters = () => {
             alt={character.name}
             className="character-image"
           />
-          <h3 className="character-name">{character.name}</h3>
-          <p className="character-description">{character.description}</p>
+          <h3 className="character-name font-sans">{character.name}</h3>
+          <p className="character-description font-body">{character.description}</p>
           <a href={character.link} className="learn-more-link">
             Learn More
           </a>

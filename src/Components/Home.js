@@ -35,13 +35,6 @@ const HomePage = () => {
         </Container>
       </section>
 
-      <section className="py-8">
-        <Container>
-          <h2 className="text-2xl font-bold mb-4">Contact</h2>
-          {/* Add contact form or other components */}
-        </Container>
-      </section>
-
       <footer className="bg-gray-800 text-white footer py-4">
   <Container className="text-center flex flex-col">
     

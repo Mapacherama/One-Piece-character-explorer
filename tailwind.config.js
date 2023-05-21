@@ -3,7 +3,11 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   content: [],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ['Roboto Condensed', 'sans-serif'],
+      body: ['Poppins', 'sans-serif'],
+    },
   },
+  
   plugins: [],
 }
