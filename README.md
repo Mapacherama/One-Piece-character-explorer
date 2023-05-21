@@ -34,7 +34,20 @@ To get started with the One Piece Character Explorer, follow the steps below:
 
    ```shell
    git clone https://github.com/Mapacherama/One-Piece-character-explorer.git
+
 2. Navigate to the project directory:
 
-  ```cd 
-  One-Piece-character-explorer
+   ```cd 
+   One-Piece-character-explorer
+
+3. Install the dependencies:
+
+   ``` npm install
+
+## Usage
+
+1. Start the development server:
+
+   ``` npm start
+
+2. Open your web browser and visit http://localhost:3000 to access the application.
