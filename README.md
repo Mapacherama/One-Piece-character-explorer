@@ -34,12 +34,10 @@ To get started with the One Piece Character Explorer, follow the steps below:
 
    ```shell
    git clone https://github.com/Mapacherama/One-Piece-character-explorer.git
-
 2. Navigate to the project directory:
 
-   ```cd 
-   One-Piece-character-explorer
-
+   ```
+   cd One-Piece-character-explorer
 3. Install the dependencies:
 
    ```
