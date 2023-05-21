@@ -42,12 +42,14 @@ To get started with the One Piece Character Explorer, follow the steps below:
 
 3. Install the dependencies:
 
-   ```npm install
+   ```npm 
+   install
 
 ## Usage
 
 1. Start the development server:
 
-   ```npm start
+   ```npm 
+   start
 
 2. Open your web browser and visit http://localhost:3000 to access the application.
