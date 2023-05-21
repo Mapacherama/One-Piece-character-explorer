@@ -1,9 +1,10 @@
 import React from 'react';
+import FeaturedCharacters from '../Components/FeaturedCharacter';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const HomePage = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 relative">
       <header className="bg-blue-500 text-white">
         <Container className="py-4">
           <h1 className="text-4xl font-bold">The One Piece Character Explorer</h1>
@@ -16,7 +17,7 @@ const HomePage = () => {
           <Row>
             <Col md={6}>
               <h2 className="text-2xl font-bold mb-4">Featured Characters</h2>
-              {/* Add featured character cards or other components */}
+              <FeaturedCharacters />
             </Col>
             <Col md={6}>
               <h2 className="text-2xl font-bold mb-4">Latest Blog Posts</h2>
@@ -41,7 +42,7 @@ const HomePage = () => {
         </Container>
       </section>
 
-      <footer className="bg-gray-800 text-white py-4">
+      <footer className="bg-gray-800 text-white footer py-4">
   <Container className="text-center flex flex-col">
     
     <div className='flex-grow'>
